@@ -41,12 +41,6 @@ const FormRegister = () => {
         />
         <Button classname="bg-blue-600 w-full" text="Register" />
       </form>
-      <p className="mt-5 text-center">
-        Have an account?
-        <Link to="/login" className="font-bold text-blue-600">
-          Login
-        </Link>
-      </p>
     </>
   );
 };

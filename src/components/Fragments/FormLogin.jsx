@@ -25,12 +25,7 @@ const FormLogin = () => {
         />
         <Button classname="bg-blue-600 w-full" text="Login" />
       </form>
-      <p className="mt-5 text-center">
-        Dont have an account?{" "}
-        <Link to="/register" className="font-bold text-blue-600">
-          register
-        </Link>
-      </p>
+     
     </>
   );
 };
